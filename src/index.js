@@ -30,7 +30,7 @@ async function onSearchForm(e) {
   page = 1;
   query = e.currentTarget.searchQuery.value.trim();
   gallery.innerHTML = '';
-  loadMoreBtn.classList.add('is-hidden');
+  // loadMoreBtn.classList.add('is-hidden');
 
   if (query === '') {
     alertNoEmptySearch();
