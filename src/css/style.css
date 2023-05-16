@@ -123,9 +123,9 @@ p {
   margin-left: 5px;
 }
 
-/* .btn-load-more.is-hidden {
+.btn-load-more.is-hidden {
   display: none;
-} */
+}
 
 .btn-load-more {
   display: block;
